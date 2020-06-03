@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "com.redhat.netcore.webapp", "com.redhat.netcore.webapp\com.redhat.netcore.webapp.csproj", "{61C1930F-16A8-475D-A919-044632F4959F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.redhat.netcore.models", "com.redhat.netcore.models\com.redhat.netcore.models.csproj", "{88EA2207-152C-4623-BEAA-81CA9891B2DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.redhat.netcore.context", "com.redhat.netcore.context\com.redhat.netcore.context.csproj", "{31364D9D-51A8-4397-9C6E-F0587C6F51A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0736C70D-6C01-4EAA-BFE9-017837EF2321}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.redhat.netcore.repository", "com.redhat.netcore.repository\com.redhat.netcore.repository.csproj", "{A0FD4298-BD92-4374-9C64-BE3131D415E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.redhat.netcore.bll", "com.redhat.netcore.bll\com.redhat.netcore.bll.csproj", "{681BA4FE-1640-42F0-89E5-D71863B758B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61C1930F-16A8-475D-A919-044632F4959F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C1930F-16A8-475D-A919-044632F4959F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C1930F-16A8-475D-A919-044632F4959F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C1930F-16A8-475D-A919-044632F4959F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88EA2207-152C-4623-BEAA-81CA9891B2DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88EA2207-152C-4623-BEAA-81CA9891B2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88EA2207-152C-4623-BEAA-81CA9891B2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88EA2207-152C-4623-BEAA-81CA9891B2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31364D9D-51A8-4397-9C6E-F0587C6F51A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31364D9D-51A8-4397-9C6E-F0587C6F51A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31364D9D-51A8-4397-9C6E-F0587C6F51A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31364D9D-51A8-4397-9C6E-F0587C6F51A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0FD4298-BD92-4374-9C64-BE3131D415E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FD4298-BD92-4374-9C64-BE3131D415E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FD4298-BD92-4374-9C64-BE3131D415E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FD4298-BD92-4374-9C64-BE3131D415E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681BA4FE-1640-42F0-89E5-D71863B758B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681BA4FE-1640-42F0-89E5-D71863B758B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681BA4FE-1640-42F0-89E5-D71863B758B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681BA4FE-1640-42F0-89E5-D71863B758B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA3D0AEC-C9B5-47A8-85E2-173E411CA54A}
+	EndGlobalSection
+EndGlobal

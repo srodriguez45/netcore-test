@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\com.redhat.netcore.context\com.redhat.netcore.context.csproj" />
+    <ProjectReference Include="..\com.redhat.netcore.models\com.redhat.netcore.models.csproj" />
+  </ItemGroup>
+
+</Project>
